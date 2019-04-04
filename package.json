@@ -1,0 +1,17 @@
+{
+  "name": "joke-web-app",
+  "version": "1.0.0",
+  "description": "web appliation to retrieve jokes from the joke service",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Breaking Code",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}

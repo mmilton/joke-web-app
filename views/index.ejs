@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <form action="/" method="post">
+            <input type="radio" name="api" id="nodeLambda" checked="checked">Node Lambda<br>
+            <input type="radio" name="api" id="nodeEC2">Node EC2
+            <!-- <input type="radio" name="api" value="javaLambda">java Lambda <br>
+            <input type="radio" name="api" value="javaEC2">java EC2 -->
+          <!-- <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required> -->
+          <input id='getJoke' type="submit" class="ghost-button" value="Get Joke">
+        </form>
+        <div id='joke'></div>
+        <div>
+
+                <img id='thinking' src="https://media1.tenor.com/images/c56d1bd94eb444b365c26406190ac296/tenor.gif?itemid=4540781" 
+                width="683" 
+                height="469.04819277108436" 
+                alt="Batman Thinking GIF - Batman Thinking Contemplating GIFs" 
+                style="max-width: 683px; display:none;"
+                >
+
+                <img id='laughing' src="https://media1.tenor.com/images/a4f0bb17bfc98d3857fcdccbf3cc4fab/tenor.gif?itemid=4290934"
+                 width="682" 
+                 height="509.2266666666667" 
+                 alt="Laughing Babies GIF - Baby Toddler Laughing GIFs"
+                  style="max-width: 682px; display: none ">
+        </div>
+      </fieldset>
+    </div>
+    <div id='punchline' class='punchline'></div>
+    <script src="code.js"></script>
+  </body>
+</html>
